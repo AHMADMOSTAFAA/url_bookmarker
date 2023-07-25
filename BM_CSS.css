@@ -1,0 +1,49 @@
+body{
+  background-color:antiquewhite;
+}
+
+H1{
+  font-family: 'Pacifico';
+
+}
+h1::after{
+content: "";
+position: absolute;
+z-index: -1;
+background-color: #ffc107;
+width: 16%;
+height:46%;
+bottom: 0;
+right: 50%;
+left:42%;
+transition-duration: 0.2s;
+}
+h1:hover::after{
+  height:60%;
+  transition-duration: 0.2s;
+ 
+}
+hr{
+  border-color: black;
+}
+h2{
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  font-size: 25px;
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+font-family: 'Righteous';
+}
+button{
+  vertical-align: middle;
+  
+}
+a{
+  text-decoration: none;
+}
+dialog{
+  top:50%;
+  bottom: 50%;
+  margin: auto;
+
+}
